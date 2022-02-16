@@ -5,3 +5,6 @@ Features:
 -Search functionlity
 -Master password to enter the webapp (stored in the js source)
 -Adding new and modifying existing entries
+
+
+p.s. it's not completly finished
