@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PassApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div>
+        <h2>Password:</h2>
+        <input
+          class="text-size-small color-text inputArea"
+          id="password"
+          type="password"
+        />
+      </div>
+      <button
+        class="buttonStyle color-text-alt bold"
+        onclick="main:verifyPassword()"
+      >
+        Log In
+      </button>
+    </div>
+    <button
+      class="buttonStyle color-text-alt bold"
+      onclick="main:closeSession()"
+    >
+      Close
+    </button>
+    <script src="js/main.js"></script>
+    <script src="js/start.js"></script>
+    <div></div>
+  </body>
+</html>
